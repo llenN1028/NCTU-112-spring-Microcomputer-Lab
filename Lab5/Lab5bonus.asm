@@ -1,7 +1,7 @@
 ORG 0000H
 AJMP START
 ORG 0050H
-
+;在矩陣燈上顯示小綠人動畫
 TABLE:
 	DB 11H
 	DB 6AH
