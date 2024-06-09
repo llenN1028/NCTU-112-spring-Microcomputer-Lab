@@ -1,7 +1,7 @@
 ORG 0000H
 AJMP INITIAL
 ORG 0050H
-
+;因為serial port還沒上完，所以這周實驗改為用鍵盤來控制輸出音高
 
 INITIAL:
 	MOV TMOD, #00000000B 	
